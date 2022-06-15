@@ -1,0 +1,14 @@
+D:\charp\testapp\FirstProjectCharp\FirstProjectCharp\bin\Debug\netcoreapp3.1\FirstProjectCharp.exe
+D:\charp\testapp\FirstProjectCharp\FirstProjectCharp\bin\Debug\netcoreapp3.1\FirstProjectCharp.deps.json
+D:\charp\testapp\FirstProjectCharp\FirstProjectCharp\bin\Debug\netcoreapp3.1\FirstProjectCharp.runtimeconfig.json
+D:\charp\testapp\FirstProjectCharp\FirstProjectCharp\bin\Debug\netcoreapp3.1\FirstProjectCharp.runtimeconfig.dev.json
+D:\charp\testapp\FirstProjectCharp\FirstProjectCharp\bin\Debug\netcoreapp3.1\FirstProjectCharp.dll
+D:\charp\testapp\FirstProjectCharp\FirstProjectCharp\bin\Debug\netcoreapp3.1\FirstProjectCharp.pdb
+D:\charp\testapp\FirstProjectCharp\FirstProjectCharp\obj\Debug\netcoreapp3.1\FirstProjectCharp.csproj.AssemblyReference.cache
+D:\charp\testapp\FirstProjectCharp\FirstProjectCharp\obj\Debug\netcoreapp3.1\FirstProjectCharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\charp\testapp\FirstProjectCharp\FirstProjectCharp\obj\Debug\netcoreapp3.1\FirstProjectCharp.AssemblyInfoInputs.cache
+D:\charp\testapp\FirstProjectCharp\FirstProjectCharp\obj\Debug\netcoreapp3.1\FirstProjectCharp.AssemblyInfo.cs
+D:\charp\testapp\FirstProjectCharp\FirstProjectCharp\obj\Debug\netcoreapp3.1\FirstProjectCharp.csproj.CoreCompileInputs.cache
+D:\charp\testapp\FirstProjectCharp\FirstProjectCharp\obj\Debug\netcoreapp3.1\FirstProjectCharp.dll
+D:\charp\testapp\FirstProjectCharp\FirstProjectCharp\obj\Debug\netcoreapp3.1\FirstProjectCharp.pdb
+D:\charp\testapp\FirstProjectCharp\FirstProjectCharp\obj\Debug\netcoreapp3.1\FirstProjectCharp.genruntimeconfig.cache
