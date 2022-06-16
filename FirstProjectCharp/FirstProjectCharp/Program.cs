@@ -21,15 +21,9 @@ namespace FirstProjectCharp
             array3[1] = (long)(array1[1] + array2[1]);
             array3[2] = (long)(array1[2] + array2[2]);
 
-            Console.WriteLine("Result array1[0]= {0}", array1[0]);
-            Console.WriteLine("Result array1[1]= {0}", array1[1]);
-            Console.WriteLine("Result array1[2]= {0}", array1[2]);
-            Console.WriteLine("Result array2[0]= {0}", array2[0]);
-            Console.WriteLine("Result array2[1]= {0}", array2[1]);
-            Console.WriteLine("Result array2[2]= {0}", array2[2]);
-            Console.WriteLine("Result array3[0]= {0}", array3[0]);
-            Console.WriteLine("Result array3[1]= {0}", array3[1]);
-            Console.WriteLine("Result array3[2]= {0}", array3[2]);
+            Console.WriteLine("Result array1 = {0}, {1}, {2}", array1[0], array1[1], array1[2]);
+            Console.WriteLine("Result array2 = {0}, {1}, {2}", array2[0], array2[1], array2[2]);
+            Console.WriteLine("Result array3[0]= {0}, {1}, {2}", array3[0], array3[1], array3[2]);
         }
     }
 }
