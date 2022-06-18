@@ -1,0 +1,14 @@
+D:\charp\testapp\LoopApp\LoopApp\obj\Debug\netcoreapp3.1\LoopApp.csproj.AssemblyReference.cache
+D:\charp\testapp\LoopApp\LoopApp\obj\Debug\netcoreapp3.1\LoopApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\charp\testapp\LoopApp\LoopApp\obj\Debug\netcoreapp3.1\LoopApp.AssemblyInfoInputs.cache
+D:\charp\testapp\LoopApp\LoopApp\obj\Debug\netcoreapp3.1\LoopApp.AssemblyInfo.cs
+D:\charp\testapp\LoopApp\LoopApp\obj\Debug\netcoreapp3.1\LoopApp.csproj.CoreCompileInputs.cache
+D:\charp\testapp\LoopApp\LoopApp\bin\Debug\netcoreapp3.1\LoopApp.exe
+D:\charp\testapp\LoopApp\LoopApp\bin\Debug\netcoreapp3.1\LoopApp.deps.json
+D:\charp\testapp\LoopApp\LoopApp\bin\Debug\netcoreapp3.1\LoopApp.runtimeconfig.json
+D:\charp\testapp\LoopApp\LoopApp\bin\Debug\netcoreapp3.1\LoopApp.runtimeconfig.dev.json
+D:\charp\testapp\LoopApp\LoopApp\bin\Debug\netcoreapp3.1\LoopApp.dll
+D:\charp\testapp\LoopApp\LoopApp\bin\Debug\netcoreapp3.1\LoopApp.pdb
+D:\charp\testapp\LoopApp\LoopApp\obj\Debug\netcoreapp3.1\LoopApp.dll
+D:\charp\testapp\LoopApp\LoopApp\obj\Debug\netcoreapp3.1\LoopApp.pdb
+D:\charp\testapp\LoopApp\LoopApp\obj\Debug\netcoreapp3.1\LoopApp.genruntimeconfig.cache
