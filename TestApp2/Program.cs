@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Linq;
+using System.Collections.Generic;
 
 namespace TestApp2
 {
@@ -7,30 +7,31 @@ namespace TestApp2
     {
         static void Main(string[] args)
         {
-            int[] array1 = { 5, 2, 1, 4, 5, 8 };
+            char[] array1 = new char[6] { 'a', 'b', 'c', 'a', 'a', 'b' };
 
-            int max = array1[0];
-            int min = array1[0];
-            for(int i = 1; i<array1.Length;i++)
-            {
-                if (array1[i] < min)
-                {
-                    min = array1[i];
-                }
-               else if (array1[i] > max)
-                {
-                    max = array1[i];
-                }
+            Dictionary<char, int> counter = new Dictionary<char, int>();
 
+            for (int i = 0; i < array1.Length; i++){
+                if (counter.ContainsKey(array1[i]))
+                {
+                    counter[array1[i]] = counter[array1[i]] + 1;
+                } else
+                {
+                    counter[array1[i]] = 1;
+                }
             }
-            int maxIndex = Array.IndexOf(array1, max);
-            int minIndex = Array.IndexOf(array1, min);
 
-            array1[minIndex] = max;
-            array1[maxIndex] = min;
+            int max = 0;
 
-            Console.WriteLine("Result = {0}", string.Join(", ", array1));
+            foreach (var item in counter)
+            {
+                if (item.Value > max)
+                {
+                    max = item.Value;
+                }
+            };
 
+            Console.WriteLine(max);
         }
     }
 }
