@@ -1,37 +1,47 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Linq;
 
 namespace TestApp2
 {
     class Program
     {
+        static void SwapMaxandMin(int[] array)
+        {  
+            int max = array[0];
+            int min = array[0];
+            for (int i = 1; i < array.Length; i++)
+            {
+                if (array[i] < min)
+                {
+                    min = array[i];
+                }
+                else if (array[i] > max)
+                {
+                    max = array[i];
+                }
+
+            }
+            int maxIndex = Array.IndexOf(array, max);
+            int minIndex = Array.IndexOf(array, min);
+
+            array[minIndex] = max;
+            array[maxIndex] = min;
+          
+
+            Console.WriteLine("Result = {0}", string.Join(", ", array));
+
+        }
         static void Main(string[] args)
         {
-            char[] array1 = new char[6] { 'a', 'b', 'c', 'a', 'a', 'b' };
-
-            Dictionary<char, int> counter = new Dictionary<char, int>();
-
-            for (int i = 0; i < array1.Length; i++){
-                if (counter.ContainsKey(array1[i]))
-                {
-                    counter[array1[i]] = counter[array1[i]] + 1;
-                } else
-                {
-                    counter[array1[i]] = 1;
-                }
-            }
-
-            int max = 0;
-
-            foreach (var item in counter)
-            {
-                if (item.Value > max)
-                {
-                    max = item.Value;
-                }
-            };
-
-            Console.WriteLine(max);
+            
+            int[] array2 = { 1, 3, 5, 8, 4, 2 };
+            
+            int[] array3 = { 6, 3, 5, 8, 9, 2 };
+            SwapMaxandMin(array3);
+            SwapMaxandMin(array2);
+            int[] array5 = { 6, 3, 5, 8, 9, 1 };
+            SwapMaxandMin(array5);
         }
     }
+    
 }
