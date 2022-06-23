@@ -5,7 +5,7 @@ namespace TestApp2
 {
     class Program
     {
-        static void SwapMaxandMin(int[] array)
+        static int SwapMaxandMin(int[] array)
         {  
             int max = array[0];
             int min = array[0];
@@ -28,9 +28,11 @@ namespace TestApp2
             array[maxIndex] = min;
           
 
-            Console.WriteLine("Result = {0}", string.Join(", ", array));
+            
 
+            return maxIndex;
         }
+         
         static void Main(string[] args)
         {
             
@@ -41,6 +43,9 @@ namespace TestApp2
             SwapMaxandMin(array2);
             int[] array5 = { 6, 3, 5, 8, 9, 1 };
             SwapMaxandMin(array5);
+            Console.WriteLine("Result = {0}", string.Join(", ", array2));
+            Console.WriteLine("Result = {0}", string.Join(", ", array3));
+            Console.WriteLine("Result = {0}", string.Join(", ", array5));
         }
     }
     
